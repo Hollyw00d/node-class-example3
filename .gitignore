@@ -1,41 +1,66 @@
-# Compiled Lua sources
-luac.out
+# Code editor files
+.idea/
 
-# luarocks build files
-*.src.rock
-*.zip
-*.tar.gz
+# CVS and SVN directories
+CVS
+.svn
 
-# Object files
-*.o
-*.os
-*.ko
-*.obj
-*.elf
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-*.def
-*.exp
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
+# Useless Windows Files
+Thumbs.db
+desktop.ini
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
 *.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
+*.msm
+*.msp
+._*
+*~
+*.bak
 
+# =========================
+# Operating System Files
+# =========================
+
+# OSX
+# =========================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+23.235.47.133
+
+
+# WordPress and Directories files
+/blogs.dir
+/old*
+advanced-cache.php
+wp-cache-config.php
+sitemap.xml
+sitemap.backup.xml
+.log
+/cache
+/upgrade
+/backup-db
+/crayon-syntax-highlighter
+/wp-content/plugins/crayon-syntax-highlighter
